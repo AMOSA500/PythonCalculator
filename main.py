@@ -25,8 +25,8 @@ operations = {
 
 while True:
   try:
-    num1 = int(input("What is your first number: "))
-    num2 = int(input("What is your second number: "))
+    num1 = float(input("What is your first number: "))
+    num2 = float(input("What is your second number: "))
     s_no = 0
     for symbols in operations:
       s_no += 1
